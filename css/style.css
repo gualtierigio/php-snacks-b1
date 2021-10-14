@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cube{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+.green{
+    background-color: greenyellow;
+}
+
+.gray{
+    background-color: lightslategray;
+}
