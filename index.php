@@ -79,17 +79,18 @@ $posts = [
 
     <?php 
 
+        $totalNum = [];
+
         for ($i = 0; $i < 15; $i++){
 
             $randomNmb = rand(1,100);
 
-            $totalNum = [];
-
             if ($randomNmb != in_array($totalNum) ){
                 array_push($totalNum, $randomNmb);
-            };
-        }
-    
+            }
+        };
+
+        // var_dump($totalNum)
     
     ; ?>
 
@@ -222,18 +223,19 @@ $paragrafiDivisi = explode(' . ', $paragrafo)
 
 ; ?>
 
-<div>
-    <h1><?php echo $paragrafo; ?>
+<!-- <div>
+    <h1>
+        <?php echo $paragrafo; ?>
     </h1>
 
     <ol>
         <?php foreach($paragrafiDivisi as $paragrafoSingolo){; ?>
-            <li><?php ; ?>
+            <li><?php explode($paragrafiDivisi) ; ?>
             </li>
         <?php }; ?>
         
     </ol>
-</div>
+</div> -->
 
     
     
